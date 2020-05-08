@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="505.0" style="-fx-background-color: DEEAF6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.barController">
+   <BarChart fx:id="barChart" barGap="2.0" categoryGap="2.0" horizontalGridLinesVisible="false" layoutX="11.0" layoutY="22.0" legendVisible="false" prefHeight="319.0" prefWidth="500.0" verticalGridLinesVisible="false">
+     <xAxis>
+       <CategoryAxis side="BOTTOM" />
+     </xAxis>
+     <yAxis>
+       <NumberAxis side="LEFT" />
+     </yAxis>
+   </BarChart>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

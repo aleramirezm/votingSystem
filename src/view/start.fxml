@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="620.0" style="-fx-background-color: DEEAF6;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane fx:id="systemPane" prefHeight="417.0" prefWidth="620.0" style="-fx-background-color: DEEAF6;" visible="false">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="33.0" layoutY="37.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="418.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="225.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="35.0" layoutY="37.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9736841917037964" blue="0.9736841917037964" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="420.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9736841917037964" blue="0.9736841917037964" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e5f0" height="273.0" layoutX="227.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.9736841917037964" green="0.9736841917037964" blue="0.9736841917037964" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Circle fill="#deeaf6" layoutX="119.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.8893762230873108" green="0.9249512553215027" blue="0.9605262875556946" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Circle fill="#deeaf6" layoutX="504.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.8893762230873108" green="0.9249512553215027" blue="0.9605262875556946" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Circle fill="#deeaf6" layoutX="310.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="0.8893762230873108" green="0.9249512553215027" blue="0.9605262875556946" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Circle fill="#deeaf6" layoutX="117.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0">
+                     <color>
+                        <Color red="0.5003045797348022" green="0.5319555997848511" blue="0.5657894611358643" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Circle fill="#deeaf6" layoutX="502.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0">
+                     <color>
+                        <Color red="0.5003045797348022" green="0.5319555997848511" blue="0.5657894611358643" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Circle fill="#deeaf6" layoutX="308.0" layoutY="149.0" radius="60.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0">
+                     <color>
+                        <Color red="0.5003045797348022" green="0.5319555997848511" blue="0.5657894611358643" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Circle>
+            <Label layoutX="81.0" layoutY="48.0" text="Jane Doe" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="466.0" layoutY="48.0" text="John Doe" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="258.0" layoutY="48.0" text="Marak Obana" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="230.0" text="“I know what this" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font></Label>
+            <Label layoutX="61.0" layoutY="245.0" text="country needs and" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="63.0" layoutY="262.0" text=" I can provide it!”" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="257.0" layoutY="232.0" text="“I want to make" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="256.0" layoutY="247.0" text="this country great" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="284.0" layoutY="264.0" text="again.&quot;" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="456.0" layoutY="232.0" text="“I'm, to be honest," textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="460.0" layoutY="247.0" text="the best option.&quot;" textFill="#adadad">
+               <font>
+                  <Font name="Garuda Oblique" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="70.0" layoutY="346.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="94.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Button" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Button>
+            <Button layoutX="458.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#voteThird" prefHeight="31.0" prefWidth="94.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Button" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Button>
+            <Button layoutX="265.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#voteSecond" prefHeight="31.0" prefWidth="94.0" style="-fx-background-radius: 10; -fx-border-radius: 10;" text="Button" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0" />
+               </effect>
+            </Button>
+            <ImageView fitHeight="95.0" fitWidth="102.0" layoutX="70.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../public/Ellipse%207.png" />
+               </image></ImageView>
+            <Button layoutX="71.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#voteFirst" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: DEEAF6; -fx-background-color: DEEAF6; -fx-border-radius: 10; -fx-background-radius: 10;" text="Vote now" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="voteThird" layoutX="459.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#voteThird" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: DEEAF6; -fx-background-color: DEEAF6; -fx-border-radius: 10; -fx-background-radius: 10;" text="Vote now" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="voteSecond" layoutX="266.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#voteSecond" prefHeight="31.0" prefWidth="94.0" style="-fx-border-color: DEEAF6; -fx-background-color: DEEAF6; -fx-border-radius: 10; -fx-background-radius: 10;" text="Vote now" textFill="#676767">
+               <font>
+                  <Font name="Garuda Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <ImageView fitHeight="95.0" fitWidth="102.0" layoutX="263.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../public/Ellipse%209.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="95.0" fitWidth="102.0" layoutX="457.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../public/Ellipse%208.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane fx:id="welcomePane" prefHeight="417.0" prefWidth="620.0" style="-fx-background-color: DEEAF6;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deeaf6" height="32.0" layoutX="232.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="158.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0">
+                     <color>
+                        <Color red="0.06578947603702545" green="0.06578947603702545" blue="0.06578947603702545" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="buttonExit" arcHeight="5.0" arcWidth="5.0" fill="#e1ebf5" height="32.0" layoutX="232.0" layoutY="246.0" onMouseClicked="#exitSystem" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="158.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#deeaf6" height="32.0" layoutX="231.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="158.0">
+               <effect>
+                  <DropShadow offsetX="4.0" offsetY="2.0">
+                     <color>
+                        <Color red="0.06578947603702545" green="0.06578947603702545" blue="0.06578947603702545" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <Rectangle fx:id="buttonStart" arcHeight="5.0" arcWidth="5.0" fill="#e1ebf5" height="32.0" layoutX="232.0" layoutY="183.0" onMouseClicked="#startSystem" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="158.0">
+               <effect>
+                  <DropShadow offsetX="-4.0" offsetY="-2.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <stroke>
+                  <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.07894736528396606" green="0.01864035055041313" blue="0.01864035055041313" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </stroke>
+            </Rectangle>
+            <Label fx:id="labelStart" layoutX="287.0" layoutY="181.0" onMouseClicked="#startSystem" prefHeight="32.0" prefWidth="48.0" text="Start" textFill="#909090">
+               <font>
+                  <Font name="Garuda Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets bottom="0.5" left="4.0" right="4.0" top="0.5" />
+               </padding>
+            </Label>
+            <Label layoutX="243.0" layoutY="93.0" text="Hi, welcome." textFill="#b9b9b9">
+               <font>
+                  <Font name="Garuda Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelExit" layoutX="291.0" layoutY="244.0" onMouseClicked="#exitSystem" prefHeight="24.0" prefWidth="40.0" text="Exit" textFill="#909090">
+               <font>
+                  <Font name="Garuda Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets bottom="0.5" left="4.0" right="4.0" top="0.5" />
+               </padding>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
